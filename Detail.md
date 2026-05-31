@@ -1,5 +1,3 @@
-Here is the converted Jupyter Notebook content, formatted specifically for you to copy and paste directly into your GitHub `README.md` file:
-
 ---
 
 ### **1. 데이터 로드 및 전처리 (Data Loading & Preprocessing)**
@@ -366,26 +364,5 @@ def sample_gpt(model, block_size, stoi, itos, device, start_text="Milton Friedma
 
 # "Milton Friedman"을 시작 문구로 하여 500자의 텍스트를 샘플링하고 결과 출력
 print(sample_gpt(model, block_size, stoi_eco, itos_eco, device, start_text="Milton Friedman", max_new_tokens=500))
-
-```
-
----
-
-### **7. 모델 저장 및 다운로드 (Model Save & Download)**
-
-학습된 모델의 가중치를 저장하고 로컬 환경으로 다운로드합니다.
-
-```python
-from google.colab import files
-
-# 모델 가중치 저장 파일명 설정
-model_path = 'tiny_gpt_economists.pth'
-
-# 모델의 state_dict 저장
-torch.save(model.state_dict(), model_path)
-print(f'Model weights saved to {model_path}')
-
-# 로컬 컴퓨터로 파일 다운로드
-files.download(model_path)
 
 ```
