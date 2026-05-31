@@ -1,9 +1,5 @@
 # Final-Project-II
 
-제공해주신 PDF의 트랜스포머(Transformer) 이론을 바탕으로, 첨부된 PyTorch 기반의 Tiny GPT 노트북(`notebook_06_ipynb의_사본.ipynb`)의 구조를 설명하는 GitHub README 마크다운 문서를 작성했습니다.
-
-PDF에 설명된 기본 개념(Attention, Masking, Add & Norm 등)을 실제 GPT 스타일의 디코더(Decoder) 전용 아키텍처에 맞게 적용 및 보완하여 작성했습니다.
-
 ---
 
 # Tiny GPT: PyTorch 기반 트랜스포머 토이 모델
